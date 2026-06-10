@@ -1,0 +1,2 @@
+model,ticker,prediction_split,seq_len,prediction_days,volume_strategy,target_scaling_method,descale_mode,non_recursive_dir_acc,non_recursive_corr,non_recursive_mae,recursive_dir_acc,recursive_corr,recursive_mae,final_price_error_pct
+MEDIUM_GRU,BTC-USD,val,20,30,rolling_mean,rolling_std_100,last_known_target_scale,0.467680608365019,0.05561394677123696,0.019012554,0.43333333333333335,0.26180713506243686,0.018029712630950163,-11.194988360219247
